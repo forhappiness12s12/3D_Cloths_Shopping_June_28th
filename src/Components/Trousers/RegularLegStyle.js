@@ -66,8 +66,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-tooltip-left" className='opacity-100' >
             <div>
-              <img src={halfpointedright} alt="Cat" className='w-[100px] z-10' />
-              <span >T32K2</span>
+              <img src={halfpointedleft} alt="Cat" className='w-[100px] z-10' />
+              <span >T32K3</span>
             </div>
           </Tooltip>
           <label  
@@ -82,8 +82,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-tooltip-right" className="opacity-100 z-10">
             <div>
-              <img src={halfpointedleft} alt="Cat" className='w-[100px]' />
-              <span>T32K3</span>
+              <img src={halfpointedright} alt="Cat" className='w-[100px]' />
+              <span>T32K2</span>
             </div>
           </Tooltip>
           <div className="text-white mt-[10px]" >HALF POINTED</div>
@@ -93,8 +93,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-htooltip-right" className='opacity-100' >
             <div>
-              <img src={pointedflapright} alt="Cat" className='w-[100px]' />
-              <span>T32H9</span>
+              <img src={pointedflapleft} alt="Cat" className='w-[100px]' />
+              <span>T32J1</span>
             </div>
           </Tooltip>
           <label className="container text-white   mt-[10px]" data-tooltip-id="my-htooltip-left" data-tooltip-place="top">
@@ -103,8 +103,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-htooltip-left" className='opacity-100' >
             <div>
-              <img src={pointedflapleft} alt="Cat" className='w-[100px]' />
-              <span>T32J1</span>
+              <img src={pointedflapright} alt="Cat" className='w-[100px]' />
+              <span>T32H9</span>
             </div>
           </Tooltip>
           <div className="text-white  mt-[10px]">POINTED FLAP</div>
@@ -114,8 +114,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-stooltip-right" className='opacity-100' >
             <div>
-              <img src={standardflapright} alt="Cat" className='w-[100px]' />
-              <span>T32K6</span>
+              <img src={standardflapleft} alt="Cat" className='w-[100px]' />
+              <span>T32K7</span>
             </div>
           </Tooltip>
           <label className="container text-white mt-[10px]" data-tooltip-id="my-stooltip-left" data-tooltip-place="top">
@@ -124,8 +124,8 @@ export const RegularLegStyle = () => {
           </label>
           <Tooltip id="my-stooltip-left" className='opacity-100' >
             <div>
-              <img src={standardflapleft} alt="Cat" className='w-[100px]' />
-              <span>T32K7</span>
+              <img src={standardflapright} alt="Cat" className='w-[100px]' />
+              <span>T32K6</span>
             </div>
           </Tooltip>
           <div className="text-white mt-[10px]">FLAP NO</div>
