@@ -35,7 +35,7 @@ export const Selectoption = () => {
     return (
 
         <div className="bg-black">
-            <p className="text-white font-[AcuminVariable1] text-[18px]">SELECTION</p>
+            <p className="text-white font-[AcuminVariable1] text-[18px] mt-[46px]">SELECTION</p>
             {/* <div className="dropdown z-10 ">
                 <label htmlFor="dropdown" className="dropdown-btn  opacity-80">
                     <span className="flex justify-center">{sharedS  tate.Productype}</span>
@@ -51,7 +51,7 @@ export const Selectoption = () => {
             {/* </div> */}
 
             <div class="font-[AcuminVariable1] flex flex-col">
-                <nav class="flex space-x-[31px]" aria-label="Tabs" role="tablist">
+                <nav class="md:flex" aria-label="Tabs" role="tablist">
                     <button onClick={() => SetStyle('0')} type="button" class={`${sharedState.Productype == 'Trousers' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
                      inline-flex border-b-2 border-transparent text-sm
                       text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50

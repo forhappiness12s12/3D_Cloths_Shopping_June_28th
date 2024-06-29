@@ -51,7 +51,7 @@ export const RegularLegStyle = () => {
   return (
     <div>
 
-      <article className="text-white flex text-[18px] font-[AcuminVariableConcept] mt-[45px] mb-[13px]">REGULAR LEG TROUSERS STYLE  OPTION</article>
+      <article className="text-white flex text-[18px] font-[AcuminVariableConcept] mt-[45px] mb-[13px]">REGULAR LEG TROUSERS STYLE OPTION</article>
       <div className=" bg-[#15171F]">
         <article className="text-white text-[15px] font-[AcuminVariable1] p-2 ">Back Pocket</article>
         {/* Back pocket */}
@@ -178,7 +178,7 @@ export const RegularLegStyle = () => {
           <div className="text-white mt-[10px]">BOTTOM STYLE</div>
           <label className="container text-white  mt-[10px]" data-tooltip-id="my-bottom-vent" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(0)} defaultChecked />
-            <span className="checkmark px-1"></span>T-3620
+            <span className="checkmark px-1"></span>T -3620
           </label>
           <Tooltip id="my-bottom-vent" className='opacity-100' >
             <div>
@@ -188,7 +188,7 @@ export const RegularLegStyle = () => {
           </Tooltip>
           <label className="container text-white mt-[10px]" data-tooltip-id="my-bottom-pant" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(1)} />
-            <span className="checkmark px-1"></span>T-3621
+            <span className="checkmark px-1"></span>T -3621
           </label>
           <Tooltip id="my-bottom-pant" className='opacity-100' >
             <div>
@@ -198,7 +198,7 @@ export const RegularLegStyle = () => {
           </Tooltip>
           <label className="container text-white mt-[10px]" data-tooltip-id="my-bottom-pant3" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(2)} />
-            <span className="checkmark px-1"></span>T-362A
+            <span className="checkmark px-1"></span>T -362A
           </label>
           <Tooltip id="my-bottom-pant3" className='opacity-100' >
             <div>
@@ -209,7 +209,7 @@ export const RegularLegStyle = () => {
           <div className="text-white mt-[10px]">CUFF STYLE</div>
           <label className="container text-white  mt-[10px]" data-tooltip-id="my-bottom-cuff" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(3)} />
-            <span className="checkmark px-1"></span>T-3605
+            <span className="checkmark px-1"></span>T -3605
           </label>
           <Tooltip id="my-bottom-cuff" className='opacity-100' >
             <div>
@@ -219,7 +219,7 @@ export const RegularLegStyle = () => {
           </Tooltip>
           <label className="container text-white mt-[10px]" data-tooltip-id="my-bottom-front1" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(4)} />
-            <span className="checkmark px-1"></span>T-3606
+            <span className="checkmark px-1"></span>T -3606
           </label>
           <Tooltip id="my-bottom-front1" className='opacity-100' >
             <div>
@@ -229,7 +229,7 @@ export const RegularLegStyle = () => {
           </Tooltip>
           <label className="container text-white mt-[10px]" data-tooltip-id="my-bottom-front2" data-tooltip-place="top">
             <input type="radio" name="bottom" onChange={() => BottomStyleChange(5)} />
-            <span className="checkmark px-1"></span>T-3627
+            <span className="checkmark px-1"></span>T -3627
           </label>
           <Tooltip id="my-bottom-front2" className='opacity-100' >
             <div>
