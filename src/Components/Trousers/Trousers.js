@@ -12,7 +12,7 @@ export const Trousers = () => {
         <StyleProvider>
 
             <div className="flex lg:flex-row flex-col h-full bg-black">
-                <div className="lg:w-[70%] lg:h-full w-full mt-[126px] ml-[107px] mr-[33px] h-[80%] bg-[#15171F] text-[white]">
+                <div className="lg:w-[70%] w-full mt-[126px] ml-[107px] mr-[33px] h-[80%] bg-[#15171F] text-[white]">
                     <TrousersModel />
                 </div>
 
