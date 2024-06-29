@@ -71,7 +71,7 @@ export const JoggersModel = () => {
 
   }, [sharedState]);
   const Modelname = ['loosefitrope.glb', 'loosefitbottomcuff.glb', 'loosefitfrontpocket.glb', 'loosefitjoggers.glb', 'loosefitbackpocket.glb', 'skinnyfitrope.glb',
-    'skinnyfitbottomcuff.glb', 'skinnyfitfrontpocket.glb', 'skinnyfitjoggers.glb'
+    'skinnyfitbottomcuff.glb', 'skinnyfitfrontpocket.glb', 'skinnyfitjoggers.glb','joggerhem.glb',
   ]
 
   return (

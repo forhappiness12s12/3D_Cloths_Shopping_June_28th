@@ -90,6 +90,16 @@ export const SkinnyFitStyle = () => {
                     <span className="checkmark px-1"></span>
                     GENERAL
                 </label>
+                <label
+                    className="container text-white p-2"
+                    data-tooltip-id="my-tooltip-right"
+                    data-tooltip-place="top"
+                >
+
+                    <input type="radio" name="rope" onChange={() => Change_Model_Index_call(9)} />
+                    <span className="checkmark px-1"></span>
+                    WITH HEM
+                </label>
                 {/* <Tooltip id="my-tooltip-right" className="opacity-100">
                     <div>
                         <img src={halfpointedleft} alt="Cat" className='w-[100px]' />

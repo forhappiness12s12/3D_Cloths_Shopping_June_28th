@@ -50,7 +50,7 @@ export const Selectoption = () => {
                 </ul> */}
             {/* </div> */}
 
-            <div class="font-[AcuminVariable1]">
+            <div class="font-[AcuminVariable1] flex flex-col">
                 <nav class="flex space-x-[31px]" aria-label="Tabs" role="tablist">
                     <button onClick={() => SetStyle('0')} type="button" class={`${sharedState.Productype == 'Trousers' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
                      inline-flex border-b-2 border-transparent text-sm
