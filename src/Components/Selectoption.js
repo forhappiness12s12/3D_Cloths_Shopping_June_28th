@@ -51,10 +51,10 @@ export const Selectoption = () => {
             {/* </div> */}
 
             <div class="font-[AcuminVariable1] flex flex-col">
-                <nav class="md:flex" aria-label="Tabs" role="tablist">
+                <nav class="lg:flex" aria-label="Tabs" role="tablist">
                     <button onClick={() => SetStyle('0')} type="button" class={`${sharedState.Productype == 'Trousers' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
                      inline-flex border-b-2 border-transparent text-sm
-                      text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50
+                      text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-  -600 disabled:opacity-50
                        disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-1" data="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
                         Trousers
                     </button>

@@ -97,7 +97,6 @@ text-align: left;
   border: 2px solid white; /* Customize border styles as needed */
 }
 .container input[type="radio"] {
-  position: absolute;
   opacity: 0;
   cursor: pointer;
 }
@@ -118,9 +117,4 @@ text-align: left;
 .container input[type="radio"]:checked + .checkmark {
   background-color: yellow; /* Change to yellow when checked */
   border-color: yellow; /* Change border color to yellow when checked */
-}
-.container {
-  display: inline-flex; /* Use inline-flex to keep items inline */
-  align-items: relative; /* Align items vertically */
-  cursor: pointer;
 }
