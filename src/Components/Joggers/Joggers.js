@@ -23,18 +23,19 @@ export const Joggers = () => {
         //         </div>
         //     </div>
         // </StyleProvider>
-        
-        <StyleProvider>     
 
-            <div className="flex lg:flex-row flex-col h-full bg-black">
-                <div className="lg:w-[70%] lg:h-full w-full h-[70%] bg-[#141720] text-[white] ">
+        <StyleProvider>
+
+            <div className="flex lg:flex-row flex-col h-full bg-black justify-center items-center">
+                <div className="lg:w-[70%] lg:h-[90%] lg:ml-[30px] w-[90%] h-[55%] mb-3 mt-[10px] bg-[#141720] text-[white]">
                     <JoggersModel />
                 </div>
-                
-                <div className="lg:w-[30%] w-[80%] lg:h-full w-full h-[30%] overflow-y-auto bg-black lg:p-[10px] p-5">
-                    <Selectoptiontotall/>
+
+
+                <div className="lg:w-[30%] lg:h-full w-full h-[45%] overflow-y-auto bg-black lg:p-[10px] p-4">
+                    <Selectoptiontotall />
                     <JoggersUIfabric />
-                    <JoggerStyleChange/>
+                    <JoggerStyleChange />
                 </div>
             </div>
         </StyleProvider>

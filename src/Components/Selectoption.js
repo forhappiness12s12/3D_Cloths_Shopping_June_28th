@@ -52,33 +52,33 @@ export const Selectoption = () => {
             {/* </div> */}
 
             <div class="font-[AcuminVariable1] flex flex-col">
-                <nav class="flex" aria-label="Tabs" role="tablist">
+                <nav className="grid grid-flow-col justify-stretch" aria-label="Tabs" role="tablist">
                     <button onClick={() => SetStyle('0')} type="button" class={`${sharedState.Productype == 'Trousers' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
-                     inline-flex border-b-2 border-transparent text-sm 
+                     inline-flex border-b-2 border-transparent text-sm justify-center
                       text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-600 disabled:opacity-50
                        disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-1" data="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
                         Trousers
                     </button>
                     <button onClick={() => SetStyle('1')} type="button" class={`${sharedState.Productype == 'Jogger' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
-                     px-1 inline-flex ml-[15px] mx-2 border-b-2 border-transparent text-sm
+                     px-1 inline-flex ml-[15px] mx-2 border-b-2 border-transparent text-sm justify-center
                      text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50
                      disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-2" data="#tabs-with-underline-2" aria-controls="tabs-with-underline-2" role="tab">
                         Joggers
                     </button>
                     <button onClick={() => SetStyle('2')} type="button" class={`${sharedState.Productype == 'Tshirt' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
-                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm
+                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm justify-center
                       text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50
                        disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-3" data="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
                         Tshirt
                     </button>
                     <button onClick={() => SetStyle('3')} type="button" class={`${sharedState.Productype == 'Polo' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
-                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm
+                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm justify-center
                       text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50
                        disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-2" data="#tabs-with-underline-2" aria-controls="tabs-with-underline-2" role="tab">
                         Polo
                     </button>
                     <button onClick={() => SetStyle('4')} type="button" class={`${sharedState.Productype == 'Shorts' && 'border-yellow-600'} active:border-yellow-600 active:text-white py-2
-                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm
+                     px-1 inline-flex ml-[9px] mx-2 border-b-2 border-transparent text-sm justify-center
                       text-gray-500 hover:text-white focus:outline-none focus:text-white focus:border-yellow-600 disabled:opacity-50
                        disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-white`} id="tabs-with-underline-item-3" data="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
                         Shorts
